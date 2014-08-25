@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B251660915D5744400EE25A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B251660815D5744400EE25A6 /* Cocoa.framework */; };
+		B251661315D5744400EE25A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B251661115D5744400EE25A6 /* InfoPlist.strings */; };
+		B251661515D5744400EE25A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B251661415D5744400EE25A6 /* main.m */; };
+		B251661915D5744400EE25A6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B251661715D5744400EE25A6 /* Credits.rtf */; };
+		B251661C15D5744400EE25A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B251661B15D5744400EE25A6 /* AppDelegate.m */; };
+		B251661F15D5744500EE25A6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B251661D15D5744500EE25A6 /* MainMenu.xib */; };
+		B251662615D58E9B00EE25A6 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B251662515D58E9B00EE25A6 /* IOBluetooth.framework */; };
+		B262899E15DAB2A600CE631B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B262899D15DAB2A600CE631B /* IOKit.framework */; };
+		B2AA300A15DAB83F0075774C /* COPYRIGHT.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2AA2FF915DAB83F0075774C /* COPYRIGHT.txt */; };
+		B2AA300B15DAB83F0075774C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2AA2FFA15DAB83F0075774C /* InfoPlist.strings */; };
+		B2AA300C15DAB83F0075774C /* HISTORY.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2AA2FFC15DAB83F0075774C /* HISTORY.txt */; };
+		B2AA300D15DAB83F0075774C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2AA2FFD15DAB83F0075774C /* Info.plist */; };
+		B2AA300E15DAB83F0075774C /* WiiRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA2FFF15DAB83F0075774C /* WiiRemote.m */; };
+		B2AA300F15DAB83F0075774C /* WiiRemoteDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA300115DAB83F0075774C /* WiiRemoteDiscovery.m */; };
+		B2EBBFA115D9551800AD0468 /* SliderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EBBFA015D9551800AD0468 /* SliderControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2AA301115DAB83F0075774C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2AA300215DAB83F0075774C /* WiiRemoteFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = WiiRemoteFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B251660415D5744400EE25A6 /* BluetoothNXT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothNXT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B251660815D5744400EE25A6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B251660B15D5744400EE25A6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B251660C15D5744400EE25A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B251660D15D5744400EE25A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B251661015D5744400EE25A6 /* BluetoothNXT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothNXT-Info.plist"; sourceTree = "<group>"; };
+		B251661215D5744400EE25A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B251661415D5744400EE25A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B251661615D5744400EE25A6 /* BluetoothNXT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothNXT-Prefix.pch"; sourceTree = "<group>"; };
+		B251661815D5744400EE25A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B251661A15D5744400EE25A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B251661B15D5744400EE25A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B251661E15D5744500EE25A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B251662515D58E9B00EE25A6 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		B262899D15DAB2A600CE631B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		B2AA2FF915DAB83F0075774C /* COPYRIGHT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT.txt; sourceTree = "<group>"; };
+		B2AA2FFB15DAB83F0075774C /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2AA2FFC15DAB83F0075774C /* HISTORY.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HISTORY.txt; sourceTree = "<group>"; };
+		B2AA2FFD15DAB83F0075774C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2AA2FFE15DAB83F0075774C /* WiiRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemote.h; sourceTree = "<group>"; };
+		B2AA2FFF15DAB83F0075774C /* WiiRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiRemote.m; sourceTree = "<group>"; };
+		B2AA300015DAB83F0075774C /* WiiRemoteDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemoteDiscovery.h; sourceTree = "<group>"; };
+		B2AA300115DAB83F0075774C /* WiiRemoteDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiiRemoteDiscovery.m; sourceTree = "<group>"; };
+		B2AA300215DAB83F0075774C /* WiiRemoteFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WiiRemoteFramework.xcodeproj; sourceTree = "<group>"; };
+		B2AA300515DAB83F0075774C /* WiiRemoteFramework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemoteFramework_Prefix.pch; sourceTree = "<group>"; };
+		B2AA300615DAB83F0075774C /* WiiRemotePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiiRemotePrivate.h; sourceTree = "<group>"; };
+		B2EBBF9F15D9551800AD0468 /* SliderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderControl.h; sourceTree = "<group>"; };
+		B2EBBFA015D9551800AD0468 /* SliderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B251660115D5744400EE25A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B262899E15DAB2A600CE631B /* IOKit.framework in Frameworks */,
+				B251662615D58E9B00EE25A6 /* IOBluetooth.framework in Frameworks */,
+				B251660915D5744400EE25A6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B25165F915D5744400EE25A6 = {
+			isa = PBXGroup;
+			children = (
+				B2AA2FF815DAB83F0075774C /* WiiRemoteFramework */,
+				B251660E15D5744400EE25A6 /* BluetoothNXT */,
+				B251660715D5744400EE25A6 /* Frameworks */,
+				B251660515D5744400EE25A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B251660515D5744400EE25A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B251660415D5744400EE25A6 /* BluetoothNXT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B251660715D5744400EE25A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B251662515D58E9B00EE25A6 /* IOBluetooth.framework */,
+				B251660815D5744400EE25A6 /* Cocoa.framework */,
+				B251660A15D5744400EE25A6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B251660A15D5744400EE25A6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B262899D15DAB2A600CE631B /* IOKit.framework */,
+				B251660B15D5744400EE25A6 /* AppKit.framework */,
+				B251660C15D5744400EE25A6 /* CoreData.framework */,
+				B251660D15D5744400EE25A6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B251660E15D5744400EE25A6 /* BluetoothNXT */ = {
+			isa = PBXGroup;
+			children = (
+				B251661A15D5744400EE25A6 /* AppDelegate.h */,
+				B251661B15D5744400EE25A6 /* AppDelegate.m */,
+				B251661D15D5744500EE25A6 /* MainMenu.xib */,
+				B251660F15D5744400EE25A6 /* Supporting Files */,
+				B2EBBF9F15D9551800AD0468 /* SliderControl.h */,
+				B2EBBFA015D9551800AD0468 /* SliderControl.m */,
+			);
+			path = BluetoothNXT;
+			sourceTree = "<group>";
+		};
+		B251660F15D5744400EE25A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B251661015D5744400EE25A6 /* BluetoothNXT-Info.plist */,
+				B251661115D5744400EE25A6 /* InfoPlist.strings */,
+				B251661415D5744400EE25A6 /* main.m */,
+				B251661615D5744400EE25A6 /* BluetoothNXT-Prefix.pch */,
+				B251661715D5744400EE25A6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2AA2FF815DAB83F0075774C /* WiiRemoteFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA2FF915DAB83F0075774C /* COPYRIGHT.txt */,
+				B2AA2FFA15DAB83F0075774C /* InfoPlist.strings */,
+				B2AA2FFC15DAB83F0075774C /* HISTORY.txt */,
+				B2AA2FFD15DAB83F0075774C /* Info.plist */,
+				B2AA2FFE15DAB83F0075774C /* WiiRemote.h */,
+				B2AA2FFF15DAB83F0075774C /* WiiRemote.m */,
+				B2AA300015DAB83F0075774C /* WiiRemoteDiscovery.h */,
+				B2AA300115DAB83F0075774C /* WiiRemoteDiscovery.m */,
+				B2AA300215DAB83F0075774C /* WiiRemoteFramework.xcodeproj */,
+				B2AA300515DAB83F0075774C /* WiiRemoteFramework_Prefix.pch */,
+				B2AA300615DAB83F0075774C /* WiiRemotePrivate.h */,
+			);
+			path = WiiRemoteFramework;
+			sourceTree = "<group>";
+		};
+		B2AA300315DAB83F0075774C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA301215DAB83F0075774C /* WiiRemote.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B251660315D5744400EE25A6 /* BluetoothNXT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B251662215D5744500EE25A6 /* Build configuration list for PBXNativeTarget "BluetoothNXT" */;
+			buildPhases = (
+				B251660015D5744400EE25A6 /* Sources */,
+				B251660115D5744400EE25A6 /* Frameworks */,
+				B251660215D5744400EE25A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothNXT;
+			productName = BluetoothNXT;
+			productReference = B251660415D5744400EE25A6 /* BluetoothNXT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25165FB15D5744400EE25A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B25165FE15D5744400EE25A6 /* Build configuration list for PBXProject "BluetoothNXT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = B25165F915D5744400EE25A6;
+			productRefGroup = B251660515D5744400EE25A6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B2AA300315DAB83F0075774C /* Products */;
+					ProjectRef = B2AA300215DAB83F0075774C /* WiiRemoteFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B251660315D5744400EE25A6 /* BluetoothNXT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B2AA301215DAB83F0075774C /* WiiRemote.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WiiRemote.framework;
+			remoteRef = B2AA301115DAB83F0075774C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B251660215D5744400EE25A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B251661315D5744400EE25A6 /* InfoPlist.strings in Resources */,
+				B251661915D5744400EE25A6 /* Credits.rtf in Resources */,
+				B251661F15D5744500EE25A6 /* MainMenu.xib in Resources */,
+				B2AA300A15DAB83F0075774C /* COPYRIGHT.txt in Resources */,
+				B2AA300B15DAB83F0075774C /* InfoPlist.strings in Resources */,
+				B2AA300C15DAB83F0075774C /* HISTORY.txt in Resources */,
+				B2AA300D15DAB83F0075774C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B251660015D5744400EE25A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B251661515D5744400EE25A6 /* main.m in Sources */,
+				B251661C15D5744400EE25A6 /* AppDelegate.m in Sources */,
+				B2EBBFA115D9551800AD0468 /* SliderControl.m in Sources */,
+				B2AA300E15DAB83F0075774C /* WiiRemote.m in Sources */,
+				B2AA300F15DAB83F0075774C /* WiiRemoteDiscovery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B251661115D5744400EE25A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B251661215D5744400EE25A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B251661715D5744400EE25A6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B251661815D5744400EE25A6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B251661D15D5744500EE25A6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B251661E15D5744500EE25A6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B2AA2FFA15DAB83F0075774C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AA2FFB15DAB83F0075774C /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B251662015D5744500EE25A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B251662115D5744500EE25A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B251662315D5744500EE25A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothNXT/BluetoothNXT-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothNXT/BluetoothNXT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B251662415D5744500EE25A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothNXT/BluetoothNXT-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothNXT/BluetoothNXT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B25165FE15D5744400EE25A6 /* Build configuration list for PBXProject "BluetoothNXT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B251662015D5744500EE25A6 /* Debug */,
+				B251662115D5744500EE25A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B251662215D5744500EE25A6 /* Build configuration list for PBXNativeTarget "BluetoothNXT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B251662315D5744500EE25A6 /* Debug */,
+				B251662415D5744500EE25A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25165FB15D5744400EE25A6 /* Project object */;
+}
