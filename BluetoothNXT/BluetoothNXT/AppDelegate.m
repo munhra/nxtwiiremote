@@ -92,7 +92,7 @@ WiiRemoteDiscovery *wiiDiscovery;
     char dataBuffer[14];
     
     dataBuffer[0] = 0x0C;
-    dataBuffer[1] = 0x00;
+    dataBuffer[1] = 0x00; //just a comment
     dataBuffer[2] = 0x80; // no response required
     dataBuffer[3] = 0x04; // motor device
     dataBuffer[4] = 0x00; // motor attached at port A
